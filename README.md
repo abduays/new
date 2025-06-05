@@ -13,6 +13,7 @@ This repository contains a basic skeleton for a mobile invoice application with 
    ```bash
    cd backend
    npm install
+   npm test   # runs the Jest test suite
    npm start
    ```
    The backend will start on port `3000`.
@@ -22,6 +23,7 @@ This repository contains a basic skeleton for a mobile invoice application with 
    ```bash
    cd frontend
    npm install
+   npm test    # runs the Jest test suite
    npm run start
    ```
    The React Native bundler will start. You can run the app using the `android` or `ios` scripts depending on your environment.
